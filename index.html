@@ -1,0 +1,152 @@
+
+    <!DOCTYPE html>
+    <html lang="zh-Hant">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Issac's Smart Deals - AI 自動化獲利系統</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <style>
+            body { background-color: #f8f9fa; font-family: 'PingFang TC', 'Microsoft JhengHei', sans-serif; }
+            .hero { background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d); color: white; padding: 100px 0; margin-bottom: 40px; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+            .card { border: none; border-radius: 20px; transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275); box-shadow: 0 10px 30px rgba(0,0,0,0.05); height: 100%; background: white; }
+            .card:hover { transform: translateY(-12px); box-shadow: 0 20px 40px rgba(0,0,0,0.12); }
+            .badge-discount { background: #ff4b2b; background: linear-gradient(to right, #ff416c, #ff4b2b); font-size: 0.9rem; padding: 8px 16px; border-radius: 50px; font-weight: bold; }
+            .category-tag { color: #6c757d; font-weight: 700; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; }
+            .btn-amazon { background: linear-gradient(to right, #f8b500, #fceabb); border: none; color: #0f1111; font-weight: 800; border-radius: 50px; padding: 12px 25px; width: 100%; transition: 0.3s; }
+            .btn-amazon:hover { transform: scale(1.05); box-shadow: 0 5px 15px rgba(248, 181, 0, 0.4); }
+            .last-update { font-size: 0.85rem; background: rgba(0,0,0,0.2); display: inline-block; padding: 5px 15px; border-radius: 20px; margin-top: 15px; }
+        </style>
+    </head>
+    <body>
+        <div class="hero text-center">
+            <div class="container">
+                <h1 class="display-3 fw-bold mb-3">💎 Issac's Premium Deals</h1>
+                <p class="lead fs-4">Gemini + APIFreeLLM 雙 AI 驅動，為您精選全網最具價值的 Amazon 爆款。</p>
+                <div class="last-update">系統即時同步中 | 最後更新: 2026-04-25 20:10:15</div>
+            </div>
+        </div>
+        <div class="container mb-5">
+            <div class="row g-4">
+    
+                <div class="col-lg-4 col-md-6">
+                    <div class="card p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="category-tag">電子產品</span>
+                            <span class="badge badge-discount">省 30%</span>
+                        </div>
+                        <h3 class="h5 fw-bold mb-3" style="color: #2c3e50;">Sony WH-1000XM5 Wireless Headphones</h3>
+                        <p class="text-secondary mb-4" style="line-height: 1.6;">索尼XM5：頂級降噪、卓越音質、清晰通話！現享30% OFF！🎧🔥 不容錯過！</p>
+                        <div class="mt-auto">
+                            <a href="https://www.amazon.com/dp/B09HP99W1C?tag=issac03-20" class="btn btn-amazon" target="_blank">立即獲取折扣 →</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-lg-4 col-md-6">
+                    <div class="card p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="category-tag">廚房用品</span>
+                            <span class="badge badge-discount">省 30%</span>
+                        </div>
+                        <h3 class="h5 fw-bold mb-3" style="color: #2c3e50;">Instant Pot Duo 7-in-1 Pressure Cooker</h3>
+                        <p class="text-secondary mb-4" style="line-height: 1.6;">Instant Pot 7合1廚房神器！💥立享7折，美食一鍋搞定！🍲
+(32字，含Emoji)</p>
+                        <div class="mt-auto">
+                            <a href="https://www.amazon.com/dp/B00FLYWNYQ?tag=issac03-20" class="btn btn-amazon" target="_blank">立即獲取折扣 →</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-lg-4 col-md-6">
+                    <div class="card p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="category-tag">數位閱讀</span>
+                            <span class="badge badge-discount">省 25%</span>
+                        </div>
+                        <h3 class="h5 fw-bold mb-3" style="color: #2c3e50;">Kindle Paperwhite (16 GB)</h3>
+                        <p class="text-secondary mb-4" style="line-height: 1.6;">Kindle Paperwhite：6.8"暖光屏，防水随心读！📚💦 限时25% OFF，立即抢购！</p>
+                        <div class="mt-auto">
+                            <a href="https://www.amazon.com/dp/B09TMN58KL?tag=issac03-20" class="btn btn-amazon" target="_blank">立即獲取折扣 →</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-lg-4 col-md-6">
+                    <div class="card p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="category-tag">穿戴裝置</span>
+                            <span class="badge badge-discount">省 18%</span>
+                        </div>
+                        <h3 class="h5 fw-bold mb-3" style="color: #2c3e50;">Apple Watch Series 9 [GPS 41mm]</h3>
+                        <p class="text-secondary mb-4" style="line-height: 1.6;">Apple Watch Series 9 守護健康，智慧互動。限時18折，馬上擁有！⌚️💖</p>
+                        <div class="mt-auto">
+                            <a href="https://www.amazon.com/dp/B0CHX46Q2Q?tag=issac03-20" class="btn btn-amazon" target="_blank">立即獲取折扣 →</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-lg-4 col-md-6">
+                    <div class="card p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="category-tag">玩具遊戲</span>
+                            <span class="badge badge-discount">省 33%</span>
+                        </div>
+                        <h3 class="h5 fw-bold mb-3" style="color: #2c3e50;">LEGO Star Wars: The Mandalorian Microfighter</h3>
+                        <p class="text-secondary mb-4" style="line-height: 1.6;">乐高星战曼达洛人微型机，6岁+快拼！33% OFF，速抢！🚀</p>
+                        <div class="mt-auto">
+                            <a href="https://www.amazon.com/dp/B0BBS3313P?tag=issac03-20" class="btn btn-amazon" target="_blank">立即獲取折扣 →</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-lg-4 col-md-6">
+                    <div class="card p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="category-tag">智慧家居</span>
+                            <span class="badge badge-discount">省 40%</span>
+                        </div>
+                        <h3 class="h5 fw-bold mb-3" style="color: #2c3e50;">Echo Dot (5th Gen, 2022 release)</h3>
+                        <p class="text-secondary mb-4" style="line-height: 1.6;">Echo Dot 5代🔊音質升級！智能Alexa，40% OFF搶購🏃‍♀️！ (28字)</p>
+                        <div class="mt-auto">
+                            <a href="https://www.amazon.com/dp/B09B8V1BM3?tag=issac03-20" class="btn btn-amazon" target="_blank">立即獲取折扣 →</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-lg-4 col-md-6">
+                    <div class="card p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="category-tag">廚房用品</span>
+                            <span class="badge badge-discount">省 35%</span>
+                        </div>
+                        <h3 class="h5 fw-bold mb-3" style="color: #2c3e50;">Ninja AF101 Air Fryer</h3>
+                        <p class="text-secondary mb-4" style="line-height: 1.6;">Ninja AF101炸鍋：告別油膩，酥脆升級！✨ 限時35% OFF，時尚高光等你帶回家！🛒🔥</p>
+                        <div class="mt-auto">
+                            <a href="https://www.amazon.com/dp/B07FDJMC9Q?tag=issac03-20" class="btn btn-amazon" target="_blank">立即獲取折扣 →</a>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="col-lg-4 col-md-6">
+                    <div class="card p-4">
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <span class="category-tag">電腦周邊</span>
+                            <span class="badge badge-discount">省 15%</span>
+                        </div>
+                        <h3 class="h5 fw-bold mb-3" style="color: #2c3e50;">Logitech MX Master 3S Wireless Mouse</h3>
+                        <p class="text-secondary mb-4" style="line-height: 1.6;">🚀 限时85折！罗技MX Master 3S：8K精准追踪，静音舒适，助您高效生产！🖱️✨</p>
+                        <div class="mt-auto">
+                            <a href="https://www.amazon.com/dp/B09HMKMM9G?tag=issac03-20" class="btn btn-amazon" target="_blank">立即獲取折扣 →</a>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+            <div class="text-center mt-5 py-5">
+                <p class="text-muted small">© 2026 Issac's AI Income System. <br>作為 Amazon 聯盟夥伴，我們從符合條件的購買中獲取佣金。所有價格以 Amazon 官網為準。</p>
+            </div>
+        </div>
+    </body>
+    </html>
+    
