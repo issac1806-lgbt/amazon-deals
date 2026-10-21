@@ -187,6 +187,8 @@ PAGE = """<!DOCTYPE html>
       box-shadow: var(--shadow);
       border-top: 4px solid var(--cat, var(--accent));
     }
+    /* display:flex would otherwise override the hidden attribute */
+    .card[hidden] { display: none !important; }
     .card[data-category="smart-home"] { --cat: #2f6f68; }
     .card[data-category="reading"] { --cat: #6d5a3a; }
     .card[data-category="streaming"] { --cat: #3d4f73; }
